@@ -112,12 +112,19 @@ Dengan Data Understanding, Data Cleaning, Encoding sehingga mendapat data yang r
 ### Modeling
 
 menentukan kandidat model : 
+
 lr = LinearRegression()
+
 knn = KNeighborsRegressor()
+
 dt = DecisionTreeRegressor(random_state= 0)
+
 rf = RandomForestRegressor(random_state= 0)
+
 xgb = XGBRegressor(random_state= 0)
+
 gbr = GradientBoostingRegressor(random_state= 0)
+
 
 dan mendapatkan hasil terbaik pada model **GradientBoostingRegressor**
 
